@@ -12,8 +12,7 @@ DESC
   s.swift_version    = '5.7'
 
   s.source = {
-    :http => 'https://github.com/fairlandigarden-cmd/ios-bind-device/blob/main/release/download/v1.0.0/IGardenSdkIOS.xcframework.zip',
-    :sha256 => '708d92a6e67bf607e41adc9c03b79af74888629352cf744b8fac73db94ccd619'
+    :http => 'https://github.com/fairlandigarden-cmd/ios-bind-device/blob/main/release/download/v1.0.0/IGardenSdkIOS.xcframework.zip'
   }
 
   # ✅ 重点：改成 vendored_frameworks，xcframework 直接写在这里
