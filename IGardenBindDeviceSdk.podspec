@@ -12,7 +12,7 @@ DESC
   s.swift_version    = '5.7'
 
   s.source = {
-    :http => 'https://github.com/JennyWXH/ios-sdk/releases/download/v1.0.0/IGardenSdkIOS.xcframework.zip',
+    :http => 'https://github.com/JennyWXH/ios-bind-device/releases/download/v1.0.0/IGardenSdkIOS.xcframework.zip',
     :sha256 => '708d92a6e67bf607e41adc9c03b79af74888629352cf744b8fac73db94ccd619'
   }
 
