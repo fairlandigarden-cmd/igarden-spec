@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'IGardenBindDeviceSdk'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'IGarden Bind Device'
   s.description      = <<-DESC
   IGarden 私有SDK，二进制XCFramework
@@ -12,7 +12,7 @@ DESC
   s.swift_version    = '5.7'
 
   s.source = {
-    :http => 'https://github.com/fairlandigarden-cmd/ios-bind-device/raw/main/release/download/v1.0.0/IGardenSdkIOS.xcframework.zip'
+    :http => 'https://github.com/fairlandigarden-cmd/ios-bind-device/raw/main/release/download/v1.0.1/IGardenSdkIOS.xcframework.zip'
   }
 
   # ✅ 重点：改成 vendored_frameworks，xcframework 直接写在这里
