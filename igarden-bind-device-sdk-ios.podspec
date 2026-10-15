@@ -12,11 +12,11 @@ DESC
   s.swift_version    = '5.7'
 
   s.source = {
-    :http => 'https://github.com/fairlandigarden-cmd/ios-bind-device/raw/main/release/download/v1.0.5/igarden-bind-device-sdk-ios.xcframework.zip'
+    :http => 'https://github.com/fairlandigarden-cmd/ios-bind-device/raw/main/release/download/v1.0.5/IGardenSdkIOS.xcframework.zip'
   }
 
   # 指定解压后的 XCFramework 路径
-  s.vendored_frameworks = 'igarden-bind-device-sdk-ios.xcframework'
+  s.vendored_frameworks = 'IGardenSdkIOS.xcframework'
 
   # 指定 Swift Module 名称，使业务方可以直接 import IGardenSdkIOS
   s.module_name = 'IGardenSdkIOS'
