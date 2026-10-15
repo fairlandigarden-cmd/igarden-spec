@@ -15,14 +15,12 @@ DESC
     :http => 'https://github.com/fairlandigarden-cmd/ios-bind-device/raw/main/release/download/v1.0.5/igarden-bind-device-sdk-ios.xcframework.zip'
   }
 
-  # ✅ 重点：改成 vendored_frameworks，xcframework 直接写在这里
+  # 指定解压后的 XCFramework 路径
   s.vendored_frameworks = 'igarden-bind-device-sdk-ios.xcframework'
-  s.static_framework = true
-  s.module_name = 'IGardenSdkIOS' # 👈 关键新增！和xcframework内部module名字一致
 
-  # 如果是静态XCFramework，打开下面这行
+  # 指定 Swift Module 名称，使业务方可以直接 import IGardenSdkIOS
+  s.module_name = 'IGardenSdkIOS'
+
+  # ⚠️ 当前二进制为动态库 (mh_dylib)，不要开启 static_framework！
   # s.static_framework = true
-
-  # 依赖在这里添加，例如
-  # s.dependency 'Moya', '~>15.0'
 end
