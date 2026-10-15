@@ -16,7 +16,7 @@ DESC
   }
 
   # ✅ 重点：改成 vendored_frameworks，xcframework 直接写在这里
-  s.vendored_frameworks = 'IGardenSdkIOS.xcframework'
+  s.vendored_frameworks = 'igarden-bind-device-sdk-ios.xcframework'
   s.static_framework = true
   s.module_name = 'IGardenSdkIOS' # 👈 关键新增！和xcframework内部module名字一致
 
