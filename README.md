@@ -10,4 +10,27 @@
 ###pod repo update igarden-spec
 
 ##push spec to remote
+###pod repo push igarden-spec igarden-bind-device-sdk-ios.podspec --allow-warnings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##push spec to remote
 ###pod repo push igarden-spec IGardenBindDeviceSdk.podspec --allow-warnings

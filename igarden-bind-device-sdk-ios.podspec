@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'igarden-bind-device-sdk-ios'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'IGarden Bind Device'
   s.description      = <<-DESC
   IGarden 私有SDK，二进制XCFramework
